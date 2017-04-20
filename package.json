@@ -1,0 +1,25 @@
+{
+  "name": "koa-server-timestamp",
+  "description": "X-Server-Timestamp middleware for koa",
+  "repository": "SunilWang/koa-server-timestamp",
+  "version": "1.0.0",
+  "keywords": [
+    "koa",
+    "middleware",
+    "server",
+    "timestamp"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": {
+    "name": "Sunil Wang"
+  },
+  "devDependencies": {
+    "koa": "*"
+  },
+  "publishConfig": {
+    "tag": "next"
+  },
+  "license": "MIT"
+}

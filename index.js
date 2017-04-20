@@ -11,9 +11,10 @@ module.exports = serverTimestamp;
  * @api public
  */
 
-function serverTimestamp() {
-    return function * serverTimestamp(next){
-        this.set('X-Server-Timestamp', Date.now());
-        yield next;
-    };
+function responseTime() {
+    return function responseTime(ctx, next){
+        return next().then(function () {
+            ctx.set('X-Server-Timestamp', Date.now());
+        });
+    }
 }

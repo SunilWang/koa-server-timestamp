@@ -1,8 +1,8 @@
 {
   "name": "koa-server-timestamp",
-  "description": "X-Server-Timestamp middleware for koa",
+  "description": "X-Server-Timestamp middleware for koa v2.",
   "repository": "SunilWang/koa-server-timestamp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "keywords": [
     "koa",
     "middleware",

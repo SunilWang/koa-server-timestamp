@@ -4,9 +4,10 @@ let app = koa();
 
 app.use(serverTimestamp());
 
-app.use(function *(next){
-    yield next;
-    this.body = this.response.get('X-Server-Timestamp');
+app.use(function (ctx, next){
+    return next().then(function () {
+        ctx.body = ctx.response.get('X-Server-Timestamp');;
+    });
 });
 
 app.listen(3000);

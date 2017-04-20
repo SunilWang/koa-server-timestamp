@@ -1,7 +1,7 @@
 
 # koa-server-timestamp
 
- X-Server-Timestamp middleware for koa
+ X-Server-Timestamp middleware for Koa v2.
 
 ## Installation
 

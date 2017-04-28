@@ -1,14 +1,18 @@
 {
   "name": "koa-server-timestamp",
-  "description": "X-Server-Timestamp middleware for koa",
+  "description": "Create a middleware to add a server timestamp header in milliseconds. Use for Koa v1",
   "repository": "SunilWang/koa-server-timestamp",
   "version": "1.0.0",
   "keywords": [
     "koa",
     "middleware",
     "server",
-    "timestamp"
+    "timestamp",
+    "server timestamp"
   ],
+  "engines": {
+    "node": ">= 4.0.0"
+  },
   "files": [
     "index.js"
   ],

@@ -1,8 +1,7 @@
 {
   "name": "koa-server-timestamp",
   "description": "Create a middleware to add a server timestamp header in milliseconds. Use for Koa v2",
-  "repository": "SunilWang/koa-server-timestamp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "keywords": [
     "koa",
     "middleware",
@@ -22,8 +21,14 @@
   "devDependencies": {
     "koa": "*"
   },
-  "publishConfig": {
-    "tag": "next"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilwang/koa-server-timestamp.git"
   },
+  "bugs": {
+    "url": "https://github.com/sunilwang/koa-server-timestamp/issues"
+  },
+  "main": "index.js",
+  "homepage": "https://github.com/sunilwang/koa-server-timestamp#readme",
   "license": "MIT"
 }

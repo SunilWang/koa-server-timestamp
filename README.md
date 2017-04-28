@@ -134,7 +134,7 @@ app.listen(3000);
 ```
 
 ## Full Example
-Check [this repo](https://github.com/SunilWang/koa-server-timestamp/blob/v1.x/example.js) for full example with `Koa v2`.
+Check [this repo](https://github.com/SunilWang/koa-server-timestamp/blob/master/example.js) for full example with `Koa v2`.
 
 ## License
 

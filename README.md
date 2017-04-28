@@ -20,7 +20,7 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 $ npm install --save koa-server-timestamp@2
 ```
 
-___The default koa-server-timestamp is for [koa v2.x](https://github.com/koajs/koa/tree/v2.x)___
+___The default koa-server-timestamp is for [koa v2.x](https://github.com/koajs/koa/tree/master)___
 ```
 $ npm i --save koa-server-timestamp
 ```

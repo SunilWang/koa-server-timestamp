@@ -1,7 +1,7 @@
 {
   "name": "koa-server-timestamp",
   "description": "Create a middleware to add a server timestamp header in milliseconds. Use for Koa v2",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "keywords": [
     "koa",
     "middleware",

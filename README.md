@@ -7,7 +7,7 @@
 Create a middleware to add a server timestamp header in milliseconds. Use for Koa v2
 
 ## Note
-This branch is use to [Koa v2.x](https://github.com/koajs/koa/tree/v2.x).
+This branch is use to [Koa v2.x](https://github.com/koajs/koa/tree/master).
 To use Koa v0.x & v1.x, please check the [1.x](https://github.com/SunilWang/koa-server-timestamp/tree/v1.x) branch.
 
 ## Installation

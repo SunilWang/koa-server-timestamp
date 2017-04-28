@@ -1,6 +1,6 @@
-let serverTimestamp = require('./');
-let koa = require('koa');
-let app = koa();
+const serverTimestamp = require('./');
+const koa = require('koa');
+const app = koa();
 
 //default
 app.use(serverTimestamp());
@@ -24,6 +24,7 @@ app.use(serverTimestamp({
     }
 }));
 
+// response
 app.use(function *(next){
     yield next;
     /*

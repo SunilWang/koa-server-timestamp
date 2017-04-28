@@ -1,5 +1,5 @@
 /*!
- * response-time
+ * koa-server-timestamp
  * Copyright(c) 2017-2017 Sunil Wang
  * MIT Licensed
  */

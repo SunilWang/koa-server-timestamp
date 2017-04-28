@@ -1,4 +1,4 @@
-let serverTimestamp = require('./');
+const serverTimestamp = require('./');
 const Koa = require('koa');
 const app = new Koa();
 

@@ -41,8 +41,8 @@ function defaultFormat(timestamp) {
  * Create a middleware to add a server timestamp header in milliseconds.
  * Use for Koa v2
  *
- * @param {String} [header] Format timestamp, see below for private function defaultFormat
- * @param {Function} [format] The name of the header to set, defaults to X-Server-Timestamp.
+ * @param {String} [header] The name of the header to set, defaults to X-Server-Timestamp.
+ * @param {Function} [format] Format timestamp, see below for private function defaultFormat.
  * @returns {Function}
  * @api public
  */

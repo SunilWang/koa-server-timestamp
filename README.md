@@ -34,7 +34,7 @@ let serverTimestamp = require('koa-server-timestamp');
 
 Create a middleware that adds a `X-Server-Timestamp` header to responses. If
 you don't want to use this module to automatically set a header, please
-see the section about  `Options  format`
+see the section about [`Options format`](#format)
 
 #### Options
 
@@ -144,3 +144,4 @@ Check [this repo](https://github.com/SunilWang/koa-server-timestamp/blob/v1.x/ex
 [npm-url]: https://www.npmjs.com/package/koa-server-timestamp
 [downloads-image]: https://img.shields.io/npm/dt/koa-server-timestamp.svg
 [downloads-url]: https://npmjs.org/package/koa-server-timestamp
+
